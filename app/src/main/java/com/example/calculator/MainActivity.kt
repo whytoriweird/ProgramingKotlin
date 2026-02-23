@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             tvResult.text = first + action + second
         }
 
-        // ================= ЦИФРИ =================
+        // ================= ЦИФРИ ================
         val btn0 = findViewById<Button>(R.id.btn0)
         btn0.setOnClickListener { if (action.isEmpty()) first += "0" else second += "0"; updateScreen() }
 
